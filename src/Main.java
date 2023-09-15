@@ -5,7 +5,7 @@ public class Main {
         double salesTax = purchasePrice * .05;
         double finalPrice = purchasePrice + salesTax;
 
-        System.out.println("The sales tax of the purchase is " + salesTax + "$ leading to a final price of " + finalPrice + "$");
+        System.out.println("The tax of the purchase is " + salesTax + "$ leading to a final price of " + finalPrice + "$");
 
     }
 }
